@@ -7,6 +7,7 @@
     <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -14,28 +15,22 @@
 </head>
 
 <body>
-
     <div class="container">
         <div class="container__conteudo">
-            <div class="container__informacoes">
-                <div class="container__texto">
-                    <h1>Adivinhe o <span class="container__texto-azul">numero secreto</span></h1>
-                    <p class="texto__paragrafo">Escolha um número entre 1 a 10</p>
-                </div>
-                <input type="number" min="1" max="10" class="container__input">
-                <div class="chute container__botoes">
-                    <button onclick="verificarChute()" class="container__botao">Chutar</button>
-                    <button onclick="reiniciarJogo()" id="reiniciar" class="container__botao" disabled>Novo jogo</button>
-                </div>
+            <h1>Jogo do Número Secreto</h1>
+            <p class="texto__paragrafo">Escolha um número entre 1 e 100</p>
+            <input type="number" class="container__input" placeholder="Digite seu chute">
+            <button class="container__botao" id="chutar">Chutar</button>
+            <button class="container__botao" id="reiniciar" disabled>Reiniciar Jogo</button>
+            <div class="dificuldade">
+                <button class="dificuldade__botao" data-dificuldade="facil">Fácil</button>
+                <button class="dificuldade__botao active" data-dificuldade="medio">Médio</button>
+                <button class="dificuldade__botao" data-dificuldade="dificil">Difícil</button>
             </div>
-            <img src="./img/ia.png" alt="Uma pessoa olhando para a esquerda" class="container__imagem-pessoa" />
+            <ul class="historico__lista"></ul>
         </div>
     </div>
-
-
-
-
-    <script src="app.js" defer></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
