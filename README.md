@@ -44,3 +44,18 @@ Siga os passos abaixo para rodar o jogo na sua máquina:
 1. Clone este repositório:
    ```bash
    git clone https://github.com/DevLuisairton/jogo_number_secret.git
+
+2. Navegue até a pasta do projeto:
+   ```bash
+   cd jogo-numero-secreto
+
+3. Estrutura do Projeto:
+  ```bash
+   jogo-numero-secreto/
+│
+├── index.html          # Página principal do jogo
+├── style.css           # Estilos CSS para a interface
+├── script.js           # Lógica do jogo em JavaScript
+├── README.md           # Este arquivo
+└── img                 # Pasta para imagens 
+   
