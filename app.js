@@ -1,7 +1,7 @@
 class JogoNumeroSecreto {
     constructor() {
         this.config = {
-            facil: { max: 50, tentativas: 15 },
+            facil: { max: 100, tentativas: 15 },
             medio: { max: 200, tentativas: 10 },
             dificil: { max: 1000, tentativas: 7 }
         };

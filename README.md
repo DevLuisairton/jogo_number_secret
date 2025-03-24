@@ -1,3 +1,8 @@
+# 🎰 Jogo do Número Secreto!
+
+![Snake Reloaded Banner](/assets/img/banner.jpg) <!-- Substitua por um banner incrível do jogo -->
+
+
 # 🎮 Jogo do Número Secreto
 
 Bem-vindo ao **Jogo do Número Secreto**! Um projeto divertido e desafiador desenvolvido com as tecnologias da web: **HTML**, **CSS** e **JavaScript**. O objetivo do jogo é adivinhar um número aleatório gerado pela máquina, com três modos de dificuldade: **Fácil**, **Médio** e **Difícil**. A cada palpite, você receberá dicas para te ajudar a chegar mais perto do número secreto. Vamos testar sua intuição e habilidades de dedução? 🧠💡
@@ -7,9 +12,9 @@ Bem-vindo ao **Jogo do Número Secreto**! Um projeto divertido e desafiador dese
 ## 🎯 Como Jogar
 
 1. **Escolha o Modo de Dificuldade**:
-   - 🟢 **Fácil**: O número secreto está entre **1 e 50**.
-   - 🟡 **Médio**: O número secreto está entre **1 e 100**.
-   - 🔴 **Difícil**: O número secreto está entre **1 e 200**.
+   - 🟢 **Fácil**: O número secreto está entre **1 e 100**.
+   - 🟡 **Médio**: O número secreto está entre **1 e 200**.
+   - 🔴 **Difícil**: O número secreto está entre **1 e 1000**.
 
 2. **Faça seu Palpite**:
    - Digite um número no campo de entrada e clique em **"Enviar"** para verificar se você acertou.
