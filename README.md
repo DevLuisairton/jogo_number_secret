@@ -1,6 +1,6 @@
 # 🎰 Jogo do Número Secreto!
 
-![Snake Reloaded Banner](/assets/img/banner.jpg) <!-- Substitua por um banner incrível do jogo -->
+![Snake Reloaded Banner](/img/banner.jpg) <!-- Substitua por um banner incrível do jogo -->
 
 
 # 🎮 Jogo do Número Secreto
